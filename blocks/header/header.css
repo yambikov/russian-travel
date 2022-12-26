@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 28px 48px 0;
+  max-width: 1184px;
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    padding-top: calc( (100vw - 320px)/(768 - 320) * (28 - 16) + 16px);
+    padding-left: calc( (100vw - 320px)/(768 - 320) * (24 - 16) + 16px);
+    padding-right: calc( (100vw - 320px)/(768 - 320) * (24 - 16) + 16px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+.header__logo {
+  width: calc( (100vw - 320px)/(768 - 320) * (176 - 142) + 142px);
+  height: 100%;
+}
+}
