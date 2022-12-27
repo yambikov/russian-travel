@@ -1,0 +1,19 @@
+.places__link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration-line: none;
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.places__link:hover {
+  opacity: 0.8;
+}

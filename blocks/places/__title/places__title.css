@@ -1,0 +1,32 @@
+.places__title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  margin: 0;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+@media screen and (max-width: 1024px) {
+  .places__title {
+    font-size: calc((100vw - 768px) / (1024 - 768) * (72 - 42) + 42px);
+    line-height: calc((100vw - 768px) / (1024 - 768) * (76 - 46) + 46px);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .places__title {
+    font-size: calc((100vw - 320px) / (768 - 320) * (42 - 32) + 32px);
+    line-height: calc((100vw - 320px) / (768 - 320) * (46 - 35) + 35px);
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .places__title {
+  padding-left: calc((100vw - 320px) / (544 - 320) * (20 - 16) + 16px);
+  padding-right: calc((100vw - 320px) / (544 - 320) * (20 - 16) + 16px);
+  }
+}
