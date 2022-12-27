@@ -13,6 +13,6 @@
   .cover__subtitle {
     font-size: calc((100vw - 320px) / (768 - 320) * (18 - 14) + 14px);
     line-height: calc((100vw - 320px) / (768 - 320) * (22 - 16) + 16px);
-    margin-top: calc((100vw - 320px) / (768 - 320) * (32 - 16) + 16px);;
+    margin-top: calc((100vw - 320px) / (768 - 320) * (32 - 16) + 16px);
   }
 }

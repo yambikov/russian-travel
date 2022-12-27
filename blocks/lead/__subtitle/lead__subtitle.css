@@ -17,6 +17,7 @@
     line-height: calc((100vw - 320px) / (768 - 320) * (36 - 20) + 20px);
     text-align: center;
     padding-top: calc((100vw - 320px) / (768 - 320) * (32 - 16) + 14px);
-    padding-left: calc((100vw - 320px) / (768 - 320) * (24 - 16) + 16px);padding-right: calc((100vw - 320px) / (768 - 320) * (24 - 16) + 16px);
+    padding-left: calc((100vw - 320px) / (768 - 320) * (24 - 16) + 16px);
+    padding-right: calc((100vw - 320px) / (768 - 320) * (24 - 16) + 16px);
   }
 }
