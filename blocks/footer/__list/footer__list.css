@@ -1,6 +1,17 @@
+.footer__list {
+  padding-bottom: 32px;
+  margin-right: 18px;
+}
+
+.footer__list:last-child {
+  padding-bottom: 48px;
+  margin-right: 0;
+}
+
 @media screen and (max-width: 544px) {
   .footer__list {
     padding-bottom: 32px;
+    margin-right: 0;
   }
   .footer__list:last-child {
     padding-bottom: 48px;

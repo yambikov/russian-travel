@@ -1,5 +1,7 @@
 .header__links {
-  display: flex;
+  display: grid;
+  grid-template-columns: min-content min-content;
+  column-gap: 18px;
   list-style: none;
   padding: 0;
   margin: 18px 0 6px;
